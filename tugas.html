@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - Tugas HTML5</title>
+</head>
+
+<body>
+<header>
+    <h1>Website Profil Pribadi</h1>
+    <p>Tugas 1 - Membuat Halaman Web Sederhana</p>
+</header>
+
+<nav>
+    <a href="#tentang">Tentang Saya</a> |
+    <a href="#jadwal">Jadwal Kuliah</a> |
+    <a href="#kontak">Form Kontak</a> |
+    <a href ="index.html">Home</a>
+</nav>
+
+<hr>
+
+<main>
+
+    <section id="tentang">
+        <h2>Tentang Saya</h2>
+
+        <article>
+            <h3>Perkenalan</h3>
+            <p>Halo, nama saya <strong>Muhammad Asrofi Sazani,</strong> biasa dipanggil Bob. 
+            Saya adalah mahasiswa jurusan <em>Teknik Informatika</em>.</p>
+
+            <p>Saya sedang belajar <u>HTML</u> dan tertarik pada bidang 
+            <mark>Web Development</mark>. 
+            </p>
+        </article>
+        <img src="profile2.JPG.jpeg"
+            alt="Foto Muhammad Asrofi Sazani"
+            width="150"
+            style="border-radius:20px;">
+    </section>
+
+    <hr>
+
+    <section id="jadwal">
+        <h2>Jadwal Kuliah</h2>
+
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Hari</th>
+                <th>Mata Kuliah</th>
+                <th>Jam</th>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+                <td>Pemrograman Web</td>
+                <td>08:00 - 10:00</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>RPL</td>
+                <td>10:00 - 12:00</td>
+            </tr>
+            <tr>
+                <td>Senin</td>
+                <td>IOT</td>
+                <td>13:00 - 15:00</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="kontak">
+        <h2>Form Kontak</h2>
+
+        <form>
+            <p>
+                <label>Nama Lengkap:</label><br>
+                <input type="text" name="nama">
+            </p>
+
+            <p>
+                <label>Email:</label><br>
+                <input type="email" name="email">
+            </p>
+
+            <p>
+                <label>Password:</label><br>
+                <input type="password" name="password">
+            </p>
+
+            <p>
+                <label>Tanggal Lahir:</label><br>
+                <input type="date" name="tgl">
+            </p>
+
+            <p>
+                <label>Jenis Kelamin:</label><br>
+                <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+                <input type="radio" name="jk" value="Perempuan"> Perempuan
+            </p>
+
+            <p>
+                <label>Hobi:</label><br>
+                <input type="checkbox" name="hobi" value="Coding"> Coding
+                <input type="checkbox" name="hobi" value="Gaming"> Gaming
+                <input type="checkbox" name="hobi" value="Membaca"> Membaca
+            </p>
+
+            <p>
+                <label>Jurusan:</label><br>
+                <select name="jurusan">
+                    <option>Teknik Informatika</option>
+                    <option>Sistem Informasi</option>
+                    <option>Manajemen Informatika</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Pesan:</label><br>
+                <textarea rows="4" cols="40"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Kirim">
+            </p>
+        </form>
+    </section>
+
+</main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 - Dibuat untuk Tugas HTML5</p>
+    </footer>
+</body>
+</html>
